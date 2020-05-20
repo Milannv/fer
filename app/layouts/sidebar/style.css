@@ -1,0 +1,15 @@
+/** Layout **/
+nav {
+    width: 30vh
+}
+
+/** Styling **/
+nav.sidebar {
+    background-color: rgb(41, 47, 55);
+    height: 50px;
+}
+nav.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

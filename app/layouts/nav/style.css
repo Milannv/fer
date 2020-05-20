@@ -1,0 +1,38 @@
+/** Layout **/
+nav.main-nav {
+    width: 100%;
+}
+nav {
+    display: flex;
+    justify-content: space-between; /* enables float right for our secondary UL */
+}
+ul.right {
+    float: right;
+}
+
+/** Styling **/
+nav.main-nav {
+    background-color: rgb(41, 47, 55);
+    height: 50px;
+}
+nav.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav.main-nav ul li {
+    display: inline-block;
+    padding: 0 15px;
+    transition: background-color 0.3s;
+    height: 50px;
+    line-height: 45px;
+}
+nav.main-nav ul li:hover {
+    background-color: rgb(52, 60, 70);
+    cursor: pointer;
+    border-bottom: 1px solid #2a6cb8 inset;
+}
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+}

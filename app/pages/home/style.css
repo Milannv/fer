@@ -1,0 +1,12 @@
+/** Layout **/
+.home {
+    min-height: 10vh;
+    padding: 0 10px;
+    height: auto;
+}
+
+
+/** Styling **/
+.home a {
+    color: #FFF;
+}

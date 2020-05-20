@@ -69,6 +69,7 @@ export class RouterHandler {
                             if (!route.secured || (route.secured && isAuthorised(route.resolve))) { // dumb example: pass page name to authorise method
                                 done();
                             } else {
+                                // Fixme: seems to be some kind of loop here messing up the browser history
                                 this.router.navigate("/unauthorised"); // deliberately show this page instead of taking you to the login page
                                 done(false);
                             }
